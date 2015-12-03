@@ -48,9 +48,6 @@ body{
     top:0;
 }
 
-.vertical.flip-container {
-
-}
 .vertical .back {
     transform: rotateX(180deg);
 }
@@ -65,13 +62,54 @@ body{
 
 .jumbotron {
     position: relative;
-    background: #000 url("../img/hulk_huge.jpg") center center;
+}
+.domu {
+    background: #000 url("../img/uvod_huge.jpg") center center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+.ironman {
+    background: #000 url("../img/ironman_huge.jpg") center center;
+    position: relative;
     width: 100%;
     height: 100%;
     background-size: cover;
     overflow: hidden;
 }
 
+.hulk {
+    background: #000 url("../img/hulk_huge.jpg") center center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.kapitan {
+    background: #000 url("../img/kapitan_huge.jpg") center center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.thor {
+    background: #000 url("../img/thor_huge.jpg") center center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
 .navbar{
     margin: auto;
+}
+
+.hlava{
+    height: 300px;
 }
