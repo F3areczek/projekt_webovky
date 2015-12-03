@@ -62,3 +62,16 @@ body{
 .vertical.flip-container:hover .front {
     transform: rotateX(180deg);
 }
+
+.jumbotron {
+    position: relative;
+    background: #000 url("../img/hulk_huge.jpg") center center;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.navbar{
+    margin: auto;
+}
